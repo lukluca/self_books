@@ -15,6 +15,7 @@
 		4A51E7012A6A8FFD00813308 /* Self_BooksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A51E7002A6A8FFD00813308 /* Self_BooksUITests.swift */; };
 		4A51E7032A6A8FFD00813308 /* Self_BooksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A51E7022A6A8FFD00813308 /* Self_BooksUITestsLaunchTests.swift */; };
 		4A51E7642A6AFF6700813308 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A51E7632A6AFF6700813308 /* Tab.swift */; };
+		4A938F722A7272EB00849057 /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A938F712A7272EB00849057 /* View+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4A51E7002A6A8FFD00813308 /* Self_BooksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Self_BooksUITests.swift; sourceTree = "<group>"; };
 		4A51E7022A6A8FFD00813308 /* Self_BooksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Self_BooksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4A51E7632A6AFF6700813308 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		4A938F712A7272EB00849057 /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				4A51E6EA2A6A8FFD00813308 /* Self_Books.entitlements */,
 				4A51E6EB2A6A8FFD00813308 /* Preview Content */,
 				4A51E7632A6AFF6700813308 /* Tab.swift */,
+				4A938F712A7272EB00849057 /* View+.swift */,
 			);
 			path = "Self Books";
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A938F722A7272EB00849057 /* View+.swift in Sources */,
 				4A51E7642A6AFF6700813308 /* Tab.swift in Sources */,
 				4A51E6E72A6A8FFB00813308 /* ListView.swift in Sources */,
 				4A51E6E52A6A8FFB00813308 /* Self_BooksApp.swift in Sources */,

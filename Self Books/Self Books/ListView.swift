@@ -60,7 +60,7 @@ struct ListView: View {
                         Text("Genre: " + book.genre.rawValue)
                         Text("ISBN: " + book.isbn)
                     }
-                }
+                } //see https://sarunw.com/posts/swiftui-list-section-header-footer/ for kind of list
                 
                 ProgressView().isHidden(isProgressViewHidden)
             }
@@ -83,21 +83,9 @@ struct ListView: View {
 
 struct ListView_Previews: PreviewProvider {
     static var previews: some View {
-        ListView()
-            .previewDisplayName("Mac")
-        
-        ListView()
-            .previewDevice(PreviewDevice(rawValue: "iPhone 14 Pro Max"))
-            .previewDisplayName("iPhone 14 Pro Max")
-    }
-}
-
-extension View {
-    @ViewBuilder func isHidden(_ isHidden: Bool) -> some View {
-        if isHidden {
-            self.hidden()
-        } else {
-            self
+        ForEach(Device.allCases, id: \.self) {
+            Tab()
+                .previewDevice($0)
         }
     }
 }

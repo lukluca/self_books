@@ -24,12 +24,10 @@ struct Tab: View {
 
 struct Tab_Previews: PreviewProvider {
     static var previews: some View {
-        Tab()
-            .previewDisplayName("Mac")
-        
-        Tab()
-            .previewDevice(PreviewDevice(rawValue: "iPhone 14 Pro Max"))
-            .previewDisplayName("iPhone 14 Pro Max")
+        ForEach(Device.allCases, id: \.self) {
+            Tab()
+                .previewDevice($0)
+        }
     }
 }
 
