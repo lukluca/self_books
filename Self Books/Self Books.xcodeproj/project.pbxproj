@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		4A51E6E52A6A8FFB00813308 /* Self_BooksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A51E6E42A6A8FFB00813308 /* Self_BooksApp.swift */; };
-		4A51E6E72A6A8FFB00813308 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A51E6E62A6A8FFB00813308 /* ContentView.swift */; };
+		4A51E6E72A6A8FFB00813308 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A51E6E62A6A8FFB00813308 /* ListView.swift */; };
 		4A51E6E92A6A8FFD00813308 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A51E6E82A6A8FFD00813308 /* Assets.xcassets */; };
 		4A51E6ED2A6A8FFD00813308 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A51E6EC2A6A8FFD00813308 /* Preview Assets.xcassets */; };
 		4A51E6F72A6A8FFD00813308 /* Self_BooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A51E6F62A6A8FFD00813308 /* Self_BooksTests.swift */; };
 		4A51E7012A6A8FFD00813308 /* Self_BooksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A51E7002A6A8FFD00813308 /* Self_BooksUITests.swift */; };
 		4A51E7032A6A8FFD00813308 /* Self_BooksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A51E7022A6A8FFD00813308 /* Self_BooksUITestsLaunchTests.swift */; };
+		4A51E7642A6AFF6700813308 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A51E7632A6AFF6700813308 /* Tab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		4A51E6E12A6A8FFB00813308 /* Self Books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Self Books.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A51E6E42A6A8FFB00813308 /* Self_BooksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Self_BooksApp.swift; sourceTree = "<group>"; };
-		4A51E6E62A6A8FFB00813308 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4A51E6E62A6A8FFB00813308 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		4A51E6E82A6A8FFD00813308 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A51E6EA2A6A8FFD00813308 /* Self_Books.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Self_Books.entitlements; sourceTree = "<group>"; };
 		4A51E6EC2A6A8FFD00813308 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		4A51E6FC2A6A8FFD00813308 /* Self BooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Self BooksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A51E7002A6A8FFD00813308 /* Self_BooksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Self_BooksUITests.swift; sourceTree = "<group>"; };
 		4A51E7022A6A8FFD00813308 /* Self_BooksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Self_BooksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4A51E7632A6AFF6700813308 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				4A51E6E42A6A8FFB00813308 /* Self_BooksApp.swift */,
-				4A51E6E62A6A8FFB00813308 /* ContentView.swift */,
+				4A51E6E62A6A8FFB00813308 /* ListView.swift */,
 				4A51E6E82A6A8FFD00813308 /* Assets.xcassets */,
 				4A51E6EA2A6A8FFD00813308 /* Self_Books.entitlements */,
 				4A51E6EB2A6A8FFD00813308 /* Preview Content */,
+				4A51E7632A6AFF6700813308 /* Tab.swift */,
 			);
 			path = "Self Books";
 			sourceTree = "<group>";
@@ -259,7 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A51E6E72A6A8FFB00813308 /* ContentView.swift in Sources */,
+				4A51E7642A6AFF6700813308 /* Tab.swift in Sources */,
+				4A51E6E72A6A8FFB00813308 /* ListView.swift in Sources */,
 				4A51E6E52A6A8FFB00813308 /* Self_BooksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

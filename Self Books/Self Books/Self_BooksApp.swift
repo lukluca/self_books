@@ -42,7 +42,7 @@ struct Self_BooksApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Tab()
         }
         .onChange(of: scenePhase) { newPhase in
             switch newPhase {
