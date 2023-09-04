@@ -43,6 +43,7 @@ struct Self_BooksApp: App {
     var body: some Scene {
         WindowGroup {
             Tab()
+                .environmentObject(BooksModel(network: DefaultNetwork())) //Must be observable object!
         }
         .onChange(of: scenePhase) { newPhase in
             switch newPhase {

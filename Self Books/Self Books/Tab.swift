@@ -26,6 +26,11 @@ struct Tab_Previews: PreviewProvider {
     static var previews: some View {
         ForEach(Device.allCases, id: \.self) {
             Tab()
+                .environmentObject(BooksModel(network: DefaultNetwork())) //Must be observable object!
+                .previewDevice($0)
+            
+            Tab()
+                .environmentObject(BooksModel(network: ErrorNetwork())) //Must be observable object!
                 .previewDevice($0)
         }
     }
